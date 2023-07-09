@@ -1,0 +1,19 @@
+POST http://localhost:3000/products.json
+Content-Type: application/json
+
+{
+  "name":"stan smith",
+  "price":80,
+  "image_url":"www.addidas.com",
+  "description":"white tennis sneakers"
+}
+###
+PATCH http://localhost:3000/products/1.json
+Content-Type: application/json
+
+{
+  "name":"blazer" 
+}
+###
+delete http://localhost:3000/products/2.json
+Content-Type:application/json
