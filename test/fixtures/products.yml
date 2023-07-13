@@ -4,10 +4,12 @@ one:
   name: MyString
   price: 1
   image_url: MyString
-  description: MyString
+  description: this is a description of the item
+  inventory: 11
 
 two:
-  name: MyString
+  name: sneakers
   price: 1
   image_url: MyString
-  description: MyString
+  description: this is a description of one
+  inventory: 9
