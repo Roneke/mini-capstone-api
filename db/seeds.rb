@@ -6,22 +6,22 @@
 #   {name: "DJI-Mavic Pro Drone", price: "80.0", image_url: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542769cv11d.jpg;maxHeight=640;maxWidth=550", description: "The DJI Mavic 3 Series features next-level imaging performance. Mavic 3 Pro's triple-camera system ushers in a new era of camera drones by housing three sensors and lenses with different focal lengths. ", inventory: 3},
 #   {name: "Nike Gym Bag", price: "49.99", image_url: "https://dks.scene7.com/is/image/GolfGalaxy/22NIKUNKGYMCLBSP2TRV_Pl_Vnla_Pl_Vnla_Hypr_Ryl?qlt=70&wid=780&fmt=webp", description: "Double zip main compartment has space for shoes, clothes, and other necessities\nZippered front pocket keeps smaller items organized\nHandles & removable, adjustable shoulder strap make it easy-to-grab and comfortable to carry", inventory: 5}
 #])
-Image.create!([{url:"https://dks.scene7.com/is/image/GolfGalaxy/21ADIMSTNSMTHPGBLMNS_White_White_Green?qlt=70&wid=992&fmt=webp",product_id:1},
-  {url:"https://dks.scene7.com/is/image/GolfGalaxy/FX5502_WhiteWhiteGreen_TOP?wid=2000&fmt=pjpeg", product_id:1},
-  {url:"https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Nike-Blazer-Mid--77-White-%26-Black-Leather-Shoes-_352755-front-US.jpg",product_id:2},
-  { url:"https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Nike-Blazer-Mid--77-White-%26-Black-Leather-Shoes-_352755-back-US.jpg",product:2},
-  {url:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR11gGozJ2JBiZ8NFeifLCmvegS2RLWKG36AN40VcDFwsdkxfU",product_id:3},
-  {
-    url:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542769cv11d.jpg;maxHeight=640;maxWidth=550",product_id:3
-  },
-  {url:"https://cdn.staticsoe.com/uploads/50509/cart/resources/20230709/5F3373D0-7FE2-4632-C5A0-A69B11116485.jpg?x-oss-process=image/resize,m_lfit,w_1094",product_id:4 },
-  {url:"https://cdn.staticsoe.com/uploads/50509/cart/resources/20230709/5CF2A788-E91A-5C21-8BFD-3DF7266FE3DF.jpg?x-oss-process=image/resize,m_lfit,w_1078",product_id:4},
-  {
-    url: "https://cdn.staticsoe.com/uploads/50509/cart/resources/20230709/6A0D8D44-26A4-D709-1A49-38751AD754FB.jpg?x-oss-process=image/resize,m_lfit,w_1078",product_id:4},
-  {
-    url: "https://image-us.samsung.com/us/smartphones/galaxy-s23-ultra/images/gallery/Red/1.jpg?$product-details-jpg$",product_id:5
-  },
-  {
-    url: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529723cv12d.jpg;maxHeight=2000;maxWidth=2000",product_id:5
-  }
-  ])
+Image.create!([{ url: "https://dks.scene7.com/is/image/GolfGalaxy/21ADIMSTNSMTHPGBLMNS_White_White_Green?qlt=70&wid=992&fmt=webp", product_id: 4 },
+               { url: "https://dks.scene7.com/is/image/GolfGalaxy/FX5502_WhiteWhiteGreen_TOP?wid=2000&fmt=pjpeg", product_id: 4 },
+               { url: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Nike-Blazer-Mid--77-White-%26-Black-Leather-Shoes-_352755-front-US.jpg", product_id: 1 },
+               { url: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Nike-Blazer-Mid--77-White-%26-Black-Leather-Shoes-_352755-back-US.jpg", product_id: 1 },
+               { url: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR11gGozJ2JBiZ8NFeifLCmvegS2RLWKG36AN40VcDFwsdkxfU", product_id: 6 },
+               {
+  url: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542769cv11d.jpg;maxHeight=640;maxWidth=550", product_id: 6,
+},
+               { url: "https://cdn.staticsoe.com/uploads/50509/cart/resources/20230709/5F3373D0-7FE2-4632-C5A0-A69B11116485.jpg?x-oss-process=image/resize,m_lfit,w_1094", product_id: 7 },
+               { url: "https://cdn.staticsoe.com/uploads/50509/cart/resources/20230709/5CF2A788-E91A-5C21-8BFD-3DF7266FE3DF.jpg?x-oss-process=image/resize,m_lfit,w_1078", product_id: 7 },
+               {
+  url: "https://cdn.staticsoe.com/uploads/50509/cart/resources/20230709/6A0D8D44-26A4-D709-1A49-38751AD754FB.jpg?x-oss-process=image/resize,m_lfit,w_1078", product_id: 7,
+},
+               {
+  url: "https://image-us.samsung.com/us/smartphones/galaxy-s23-ultra/images/gallery/Red/1.jpg?$product-details-jpg$", product_id: 3,
+},
+               {
+  url: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529723cv12d.jpg;maxHeight=2000;maxWidth=2000", product_id: 3,
+}])

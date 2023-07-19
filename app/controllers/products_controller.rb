@@ -1,5 +1,6 @@
 class ProductsController < ApplicationController
   def index
+    pp current_user
     @products = Product.all
     render template: "products/index"
   end
@@ -13,7 +14,7 @@ class ProductsController < ApplicationController
     @product = Product.create(
       name: params[:name],
       price: params[:price],
-      description: params[:description],supplier_id: params[:supplier_id]
+      description: params[:description], supplier_id: params[:supplier_id],
     )
     if @product.valid?
       #render json: product.as_json
@@ -29,7 +30,7 @@ class ProductsController < ApplicationController
       name: params[:name] || @product.name,
       price: params[:price] || @product.price,
       description: params[:description] || @product.description,
-      supplier_id: params[:supplier_id] || @product.supplier_id
+      supplier_id: params[:supplier_id] || @product.supplier_id,
     )
     if @product.valid?
       render template: "products/show"
