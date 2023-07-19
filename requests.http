@@ -47,3 +47,16 @@ Content-Type: application/json
   "email":"Josh@test.com",
   "password":"password"
 }
+###
+POST http://localhost:3000/orders.json
+Content-Type: application/json
+
+{
+  "id": 2,
+  "user_id":1,
+  "product_id": 3,
+  "quantity": 1,
+  "subtotal": 700,
+  "tax": 25,
+  "total":725
+}
