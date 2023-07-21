@@ -1,4 +1,6 @@
 class OrdersController < ApplicationController
+  before_action :authenticate_user
+
   def create
     product = Product.find_by(id: params[:product_id])
     price = product.price
@@ -22,6 +24,7 @@ class OrdersController < ApplicationController
   end
 
   def show
+    current_user
     @order = Order.find_by(id: params["id"])
     render :show
   end
