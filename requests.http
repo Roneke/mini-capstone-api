@@ -65,3 +65,15 @@ Authorization:  Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2ODk4OTMw
 ### index order
 get http://localhost:3000/orders.json
 Authorization:  Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2ODk4OTMwNjh9.m7p3G1kIlTInBIZcjhnJ1jsYsPliXlwZVvFSSUDDtO0
+###cartedproducts create
+post http://localhost:3000/carted_products.json
+Content-Type: application/json
+Authorization:  Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2OTAyMzQzMzJ9.If9ZAz_dpKclvpyFxS8-QaVpgD2wfY5YayS2ugHTBrg
+
+ {
+   "quantity": 2,
+   "product_id": 3,
+   "user_id": 2,
+   "order_id": 2,
+   "status": "ordered"
+ }

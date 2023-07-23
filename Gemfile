@@ -75,3 +75,4 @@ group :test do
   gem "webdrivers"
 end
 gem 'seed_dump'
+gem 'annotate'
